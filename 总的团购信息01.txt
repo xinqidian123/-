@@ -1,0 +1,112 @@
+{"id":893403171,"title":"星巴克馥芮白(大杯)","price":59.9,"status":1,"sold":56990,"remain":30000,"marketPrice":76,"discount":7.9}
+{"id":893387659,"title":"星巴克缤纷星冰乐(大杯)6选2","price":54.9,"status":1,"sold":80149,"remain":30000,"marketPrice":72,"discount":7.7}
+{"id":909994855,"title":"星巴克拿铁(大杯)","price":32,"status":1,"sold":58130,"remain":30000,"marketPrice":33,"discount":9.7}
+{"id":909946430,"title":"星巴克美式(大杯)","price":29,"status":1,"sold":105050,"remain":30000,"marketPrice":30,"discount":9.7}
+{"id":930427880,"title":"星巴克【下午茶】1杯咖啡+1份蛋糕","price":54,"status":1,"sold":181709,"remain":30000,"marketPrice":72,"discount":7.5}
+{"id":1039079550,"title":"星巴克燕麦奶巴旦木系列(大杯)6选1","price":28,"status":1,"sold":124005,"remain":30000,"marketPrice":37,"discount":7.6}
+{"id":1055514663,"title":"星巴克缤纷星冰乐(大杯)8选1","price":28,"status":1,"sold":328661,"remain":30000,"marketPrice":36,"discount":7.8}
+{"id":1068183626,"title":"星巴克【一次3杯】经典咖啡组合6选3","price":82.5,"status":1,"sold":17115,"remain":30000,"marketPrice":120,"discount":6.9}
+{"id":1068271068,"title":"星巴克【新人专享】人气饮品10选1","price":23.9,"status":1,"sold":33639,"remain":30000,"marketPrice":36,"discount":6.7}
+{"id":1068185454,"title":"星巴克【一次3杯】缤纷星冰乐8选3","price":78.9,"status":1,"sold":9575,"remain":30000,"marketPrice":108,"discount":7.4}
+
+2023-11-26 13:55:12.453562
+{"id":893403171,"title":"星巴克馥芮白(大杯)","price":59.9,"status":1,"sold":56992,"remain":30000,"marketPrice":76,"discount":7.9}
+{"id":893387659,"title":"星巴克缤纷星冰乐(大杯)6选2","price":54.9,"status":1,"sold":80150,"remain":30000,"marketPrice":72,"discount":7.7}
+{"id":909994855,"title":"星巴克拿铁(大杯)","price":32,"status":1,"sold":58130,"remain":30000,"marketPrice":33,"discount":9.7}
+{"id":909946430,"title":"星巴克美式(大杯)","price":29,"status":1,"sold":105051,"remain":30000,"marketPrice":30,"discount":9.7}
+{"id":930427880,"title":"星巴克【下午茶】1杯咖啡+1份蛋糕","price":54,"status":1,"sold":181714,"remain":30000,"marketPrice":72,"discount":7.5}
+{"id":1039079550,"title":"星巴克燕麦奶巴旦木系列(大杯)6选1","price":28,"status":1,"sold":124013,"remain":30000,"marketPrice":37,"discount":7.6}
+{"id":1055514663,"title":"星巴克缤纷星冰乐(大杯)8选1","price":28,"status":1,"sold":328669,"remain":30000,"marketPrice":36,"discount":7.8}
+{"id":1068183626,"title":"星巴克【一次3杯】经典咖啡组合6选3","price":82.5,"status":1,"sold":17117,"remain":30000,"marketPrice":120,"discount":6.9}
+{"id":1068271068,"title":"星巴克【新人专享】人气饮品10选1","price":23.9,"status":1,"sold":33638,"remain":30000,"marketPrice":36,"discount":6.7}
+{"id":1068185454,"title":"星巴克【一次3杯】缤纷星冰乐8选3","price":78.9,"status":1,"sold":9575,"remain":30000,"marketPrice":108,"discount":7.4}
+
+2023-11-26 13:56:40.351607
+{"id":893403171,"title":"星巴克馥芮白(大杯)","price":59.9,"status":1,"sold":56992,"remain":30000,"marketPrice":76,"discount":7.9}
+{"id":893387659,"title":"星巴克缤纷星冰乐(大杯)6选2","price":54.9,"status":1,"sold":80150,"remain":30000,"marketPrice":72,"discount":7.7}
+{"id":909994855,"title":"星巴克拿铁(大杯)","price":32,"status":1,"sold":58131,"remain":30000,"marketPrice":33,"discount":9.7}
+{"id":909946430,"title":"星巴克美式(大杯)","price":29,"status":1,"sold":105052,"remain":30000,"marketPrice":30,"discount":9.7}
+{"id":930427880,"title":"星巴克【下午茶】1杯咖啡+1份蛋糕","price":54,"status":1,"sold":181718,"remain":30000,"marketPrice":72,"discount":7.5}
+{"id":1039079550,"title":"星巴克燕麦奶巴旦木系列(大杯)6选1","price":28,"status":1,"sold":124017,"remain":30000,"marketPrice":37,"discount":7.6}
+{"id":1055514663,"title":"星巴克缤纷星冰乐(大杯)8选1","price":28,"status":1,"sold":328673,"remain":30000,"marketPrice":36,"discount":7.8}
+{"id":1068183626,"title":"星巴克【一次3杯】经典咖啡组合6选3","price":82.5,"status":1,"sold":17117,"remain":30000,"marketPrice":120,"discount":6.9}
+{"id":1068271068,"title":"星巴克【新人专享】人气饮品10选1","price":23.9,"status":1,"sold":33639,"remain":30000,"marketPrice":36,"discount":6.7}
+{"id":1068185454,"title":"星巴克【一次3杯】缤纷星冰乐8选3","price":78.9,"status":1,"sold":9575,"remain":30000,"marketPrice":108,"discount":7.4}
+{"id":1068214443,"title":"星巴克焦糖玛奇朵(大杯)2杯","price":59,"status":1,"sold":10411,"remain":30000,"marketPrice":74,"discount":8}
+{"id":1125810902,"title":"星巴克经典咖啡7选1","price":28,"status":1,"sold":18657,"remain":30000,"marketPrice":39,"discount":7.2}
+{"id":1154823235,"title":"星巴克冰摇茶系列3选1","price":28,"status":1,"sold":15282,"remain":30000,"marketPrice":37,"discount":7.6}
+{"id":1154818340,"title":"星巴克【甜蜜时刻】星冰乐+蛋糕","price":49,"status":1,"sold":2995,"remain":30000,"marketPrice":66,"discount":7.5}
+{"id":1178733136,"title":"星巴克慕斯浓缩2选2","price":55.5,"status":1,"sold":8960,"remain":30000,"marketPrice":70,"discount":8}
+{"id":1178722197,"title":"星巴克慕斯浓缩2选1","price":27.5,"status":1,"sold":34819,"remain":30000,"marketPrice":35,"discount":7.9}
+{"id":1213054067,"title":"星巴克香草拿铁(大杯)2选2","price":56.9,"status":1,"sold":1766,"remain":30000,"marketPrice":72,"discount":8}
+{"id":1213136304,"title":"星巴克茶拿铁组合(大杯)3选2","price":55.9,"status":1,"sold":1719,"remain":30000,"marketPrice":70,"discount":8}
+{"id":1215733883,"title":"星巴克经典咖啡组合双杯11选2","price":55,"status":1,"sold":7106,"remain":30000,"marketPrice":76,"discount":7.3}
+{"id":1214094958,"title":"星巴克【早午餐】蒸汽奶+蛋堡","price":45,"status":1,"sold":1492,"remain":30000,"marketPrice":61,"discount":7.4}
+{"id":1216713404,"title":"星巴克星巴克浓系列4选1","price":26.9,"status":1,"sold":52242,"remain":30000,"marketPrice":33,"discount":8.2}
+{"id":1219603287,"title":"星巴克星巴克浓系列双杯4选2","price":49.9,"status":1,"sold":5801,"remain":30000,"marketPrice":66,"discount":7.6}
+{"id":1224793465,"title":"星巴克太妃榛果系列5选1","price":27.9,"status":1,"sold":75459,"remain":30000,"marketPrice":38,"discount":7.4}
+{"id":1224139300,"title":"星巴克【经典回归】太妃榛果系列5选2","price":58.5,"status":1,"sold":3665,"remain":30000,"marketPrice":76,"discount":7.7}
+{"id":1187675783,"title":"库迪咖啡加浓美式2选1","price":11.9,"status":1,"sold":3385,"remain":30000,"marketPrice":26,"discount":4.6}
+{"id":1187721474,"title":"库迪咖啡全场饮品任选券","price":13.9,"status":1,"sold":123669,"remain":30000,"marketPrice":35,"discount":4}
+{"id":1187520674,"title":"库迪咖啡【品牌推荐】潘帕斯蓝系列3选1","price":12.9,"status":1,"sold":3838,"remain":30000,"marketPrice":32,"discount":4.1}
+{"id":1187634428,"title":"库迪咖啡美式2选1","price":9.9,"status":1,"sold":2787,"remain":30000,"marketPrice":23,"discount":4.4}
+{"id":1187660916,"title":"库迪咖啡生椰拿铁","price":12.9,"status":1,"sold":18551,"remain":30000,"marketPrice":29,"discount":4.5}
+{"id":1186776200,"title":"库迪咖啡经典拿铁","price":10.9,"status":1,"sold":2183,"remain":30000,"marketPrice":26,"discount":4.2}
+{"id":1187712666,"title":"库迪咖啡抹茶茉香库可冰","price":11.9,"status":1,"sold":1742,"remain":30000,"marketPrice":32,"discount":3.8}
+{"id":1187903417,"title":"库迪咖啡【好运熊】蜜意茉茉生酪拿铁","price":12.9,"status":1,"sold":1064,"remain":30000,"marketPrice":35,"discount":3.7}
+{"id":1187760820,"title":"库迪咖啡柚见手摇冰茶","price":10.9,"status":1,"sold":1215,"remain":30000,"marketPrice":26,"discount":4.2}
+{"id":1187970362,"title":"库迪咖啡生酪拿铁","price":12.9,"status":1,"sold":824,"remain":30000,"marketPrice":29,"discount":4.5}
+{"id":1189671647,"title":"库迪咖啡全场饮品任选券","price":13.9,"status":1,"sold":18169,"remain":30000,"marketPrice":35,"discount":4}
+{"id":1194293353,"title":"库迪咖啡【五常米咖】年度米乳新品3选1","price":11.9,"status":1,"sold":15321,"remain":30000,"marketPrice":35,"discount":3.4}
+{"id":1194163785,"title":"库迪咖啡【丹桂飘香】桂花新品3选1","price":12.9,"status":1,"sold":10335,"remain":30000,"marketPrice":35,"discount":3.7}
+{"id":1206310351,"title":"库迪咖啡美式热狗系列3选1","price":5.9,"status":1,"sold":13057,"remain":30000,"marketPrice":12,"discount":5}
+{"id":1212309480,"title":"库迪咖啡檬檬巴斯克芝芝拿铁","price":12.9,"status":1,"sold":179,"remain":30000,"marketPrice":35,"discount":3.7}
+{"id":1212377778,"title":"库迪咖啡玫瑰贴贴生酪拿铁","price":12.9,"status":1,"sold":273,"remain":30000,"marketPrice":35,"discount":3.7}
+{"id":1221245649,"title":"库迪咖啡乌龙茶酿米乳","price":10.9,"status":1,"sold":1248,"remain":30000,"marketPrice":29,"discount":3.8}
+{"id":1226194715,"title":"库迪咖啡生椰茉莉茶","price":10.9,"status":1,"sold":166,"remain":30000,"marketPrice":26,"discount":4.2}
+{"id":1226273138,"title":"库迪咖啡【唤颜秋冬】元气桃胶2选1","price":12.9,"status":1,"sold":9429,"remain":30000,"marketPrice":35,"discount":3.7}
+{"id":1226274154,"title":"库迪咖啡精萃澳白","price":12.9,"status":1,"sold":131,"remain":30000,"marketPrice":29,"discount":4.5}
+{"id":1226260416,"title":"库迪咖啡抹茶拿铁","price":11.9,"status":1,"sold":266,"remain":30000,"marketPrice":29,"discount":4.2}
+{"id":1226166714,"title":"库迪咖啡卡布奇诺","price":12.9,"status":1,"sold":117,"remain":30000,"marketPrice":29,"discount":4.5}
+{"id":1226003014,"title":"库迪咖啡纯萃燕麦拿铁","price":11.9,"status":1,"sold":243,"remain":30000,"marketPrice":29,"discount":4.2}
+{"id":1227688679,"title":"库迪咖啡【暖暖的橙心】金橙2选1","price":12.9,"status":1,"sold":5467,"remain":30000,"marketPrice":35,"discount":3.7}
+{"id":1232558591,"title":"库迪咖啡【感恩节】爱心小熊联名款6选1","price":11.9,"status":1,"sold":1541,"remain":30000,"marketPrice":35,"discount":3.4}
+{"id":1196644695,"title":"luckin co...提拉米苏风味大福","price":5.5,"status":1,"sold":7199,"remain":30000,"marketPrice":10,"discount":5.5}
+{"id":1196800784,"title":"luckin coffe...焦糖玛奇朵","price":17.2,"status":1,"sold":852,"remain":30000,"marketPrice":32,"discount":5.4}
+{"id":1196889523,"title":"luckin coffee...橙C美式","price":14.5,"status":1,"sold":3551,"remain":30000,"marketPrice":32,"discount":4.6}
+{"id":1196800786,"title":"luckin coff...半熟芝士蛋糕","price":6.9,"status":1,"sold":4913,"remain":30000,"marketPrice":11,"discount":6.3}
+{"id":1197063052,"title":"luckin coff...海盐芝士吐司","price":5.9,"status":1,"sold":10756,"remain":30000,"marketPrice":12,"discount":5}
+{"id":1196890550,"title":"luckin coffee...陨石拿铁","price":16,"status":1,"sold":1535,"remain":30000,"marketPrice":32,"discount":5}
+{"id":1196741939,"title":"luckin coff...冰吸生椰拿铁","price":14.5,"status":1,"sold":3722,"remain":30000,"marketPrice":32,"discount":4.6}
+{"id":1196634684,"title":"luckin coffee瑞幸咖啡拿铁","price":15.6,"status":1,"sold":1499,"remain":30000,"marketPrice":29,"discount":5.4}
+{"id":1197649580,"title":"luckin coffee...加浓美式","price":13.9,"status":1,"sold":10213,"remain":30000,"marketPrice":29,"discount":4.8}
+{"id":1197610281,"title":"luckin coff...桂花龙井拿铁","price":16,"status":1,"sold":934,"remain":30000,"marketPrice":35,"discount":4.6}
+{"id":1197803182,"title":"luckin cof...兰韵铁观音拿铁","price":16,"status":1,"sold":583,"remain":30000,"marketPrice":35,"discount":4.6}
+{"id":1197648020,"title":"luckin coffee...生酪拿铁","price":16,"status":1,"sold":8794,"remain":30000,"marketPrice":32,"discount":5}
+{"id":1197497822,"title":"luckin coff...碧螺知春拿铁","price":16,"status":1,"sold":13338,"remain":30000,"marketPrice":35,"discount":4.6}
+{"id":1197085962,"title":"luckin coffee...丝绒拿铁","price":16,"status":1,"sold":8021,"remain":30000,"marketPrice":32,"discount":5}
+{"id":1197803172,"title":"luckin coffe...一杯巧克力","price":13,"status":1,"sold":24283,"remain":30000,"marketPrice":29,"discount":4.5}
+{"id":1197623558,"title":"luckin coff...生椰丝绒拿铁","price":16,"status":1,"sold":13337,"remain":30000,"marketPrice":35,"discount":4.6}
+{"id":1197079983,"title":"luckin coffee...标准美式","price":11.5,"status":1,"sold":27654,"remain":30000,"marketPrice":26,"discount":4.5}
+{"id":1198040157,"title":"luckin coff...茉莉海盐拿铁","price":16,"status":1,"sold":1111,"remain":30000,"marketPrice":35,"discount":4.6}
+{"id":1197828729,"title":"luckin coffe...抹茶瑞纳冰","price":16,"status":1,"sold":8178,"remain":30000,"marketPrice":35,"discount":4.6}
+{"id":1197814776,"title":"luckin coff...茉莉花香拿铁","price":14.5,"status":1,"sold":9990,"remain":30000,"marketPrice":32,"discount":4.6}
+{"id":1197832670,"title":"luckin coff...昆仑煮雪拿铁","price":16,"status":1,"sold":552,"remain":30000,"marketPrice":35,"discount":4.6}
+{"id":1205584284,"title":"luckin cof...青苹果丝绒拿铁","price":16,"status":1,"sold":2423,"remain":30000,"marketPrice":35,"discount":4.6}
+{"id":1208347437,"title":"luckin coff...富桂厚乳拿铁","price":16,"status":1,"sold":1075,"remain":30000,"marketPrice":35,"discount":4.6}
+{"id":1218611794,"title":"luckin co...马斯卡彭生酪拿铁","price":14.5,"status":1,"sold":5609,"remain":30000,"marketPrice":32,"discount":4.6}
+{"id":1220173945,"title":"luckin coffee...厚乳拿铁","price":17.2,"status":1,"sold":286,"remain":30000,"marketPrice":32,"discount":5.4}
+{"id":1223091451,"title":"luckin coffe...花魁·拿铁","price":16,"status":1,"sold":516,"remain":30000,"marketPrice":35,"discount":4.6}
+{"id":1223143255,"title":"luckin co...花魁·Dirty","price":16,"status":1,"sold":1522,"remain":30000,"marketPrice":35,"discount":4.6}
+{"id":1223206029,"title":"luckin coff...花魁·澳瑞白","price":16,"status":1,"sold":822,"remain":30000,"marketPrice":35,"discount":4.6}
+{"id":1223042749,"title":"luckin co...山茶花Dirty","price":16,"status":1,"sold":2181,"remain":30000,"marketPrice":35,"discount":4.6}
+{"id":1223105382,"title":"luckin coffe...花魁·美式","price":14.5,"status":1,"sold":1188,"remain":30000,"marketPrice":32,"discount":4.6}
+{"id":1225418814,"title":"luckin co...太妃榛香厚乳拿铁","price":16,"status":1,"sold":1407,"remain":30000,"marketPrice":35,"discount":4.6}
+{"id":1227993967,"title":"luckin ...【专属红杯】酱香拿铁","price":18.6,"status":1,"sold":14760,"remain":30000,"marketPrice":38,"discount":4.9}
+{"id":1231671916,"title":"luckin cof...圣诞烤布丁拿铁","price":17.5,"status":1,"sold":1134,"remain":30000,"marketPrice":35,"discount":5}
+{"id":1233477230,"title":"luckin coffee...丝绒拿铁","price":9.9,"status":1,"sold":8830,"remain":30000,"marketPrice":32,"discount":3.1}
+{"id":1232966298,"title":"luckin coff...超值20选1","price":9.9,"status":1,"sold":122921,"remain":30000,"marketPrice":35,"discount":2.9}
+{"id":1233506077,"title":"luckin coffe...热红酒美式","price":14.5,"status":1,"sold":1346,"remain":30000,"marketPrice":32,"discount":4.6}
+{"id":1232704673,"title":"luckin coffee...生椰拿铁","price":9.9,"status":1,"sold":21912,"remain":30000,"marketPrice":32,"discount":3.1}
+{"id":1233486110,"title":"luckin coffee...橙C美式","price":9.9,"status":1,"sold":7246,"remain":30000,"marketPrice":32,"discount":3.1}
+
