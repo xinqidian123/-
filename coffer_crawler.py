@@ -18,14 +18,24 @@ Group_buying_URL: list = []
 
 def create_urls() -> list[int]:
     global cnt
+    url_s = ""
     for i in urls:
         url = i
         sleep_time = random.randint(2, 4) + random.random()
         time.sleep(sleep_time)
+        ua_pool = [
+            "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.289 Safari/537.36",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+        ]
         headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0",
+            "User-Agent": ua_pool[random.randint(0, len(ua_pool)-1)],
             "Cookie": "fspop=test; cy=982; cye=minhou; _lx_utm=utm_source%3DBaidu%26utm_medium%3Dorganic; _lxsdk_cuid=18c14f7ba63c8-0251b075bb2253-4c657b58-1fa400-18c14f7ba64c8; _lxsdk=18c14f7ba63c8-0251b075bb2253-4c657b58-1fa400-18c14f7ba64c8; _hc.v=61a730c4-8e5a-0ffa-39f4-7c2264540034.1701158829; Hm_lvt_602b80cf8079ae6591966cc70a3940e7=1701158830; WEBDFPID=xxxx476z7zw95uuu037u0yu83y63zy1y81x85u2w83y97958xw738665-2016518835118-1701158835118SMSOUMKfd79fef3d01d5e9aadc18ccd4d0c95071321; qruuid=6be944d9-22d6-4f7b-a28c-73ba2debc725; dper=59cbd7d042a25d7cd021476441994dea2e0146ba48d6553ce5ba7097bac2c7ca752f2e13830917efb17f7cc9b5e569f496d3a02830c1e23984a7b3724a12779e; ll=7fd06e815b796be3df069dec7836c3df; s_ViewType=10; Hm_lpvt_602b80cf8079ae6591966cc70a3940e7=1701158924; JSESSIONID=24E4AD9681FABC05587F07FADDBB3C3A; _lxsdk_s=18c14f7ba64-a9a-13b-b69%7C%7C124"
         }
+
         request = urllib.request.Request(url=url, headers=headers)
         response = urllib.request.urlopen(request)
         content = response.read().decode("utf-8")
@@ -39,11 +49,19 @@ def create_urls() -> list[int]:
 
 
 def get_content(i: int, ans: list) -> str:
-    sleep_time = random.randint(1, 3) + random.random()
+    sleep_time = random.randint(2,4) + random.random()
     time.sleep(sleep_time)
     url = ans[i]
+    ua_pool=[
+        "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.289 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+    ]
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0",
+        "User-Agent": ua_pool[random.randint(0,len(ua_pool)-1)],
         "Cookie":"fspop=test; cy=982; cye=minhou; _lx_utm=utm_source%3DBaidu%26utm_medium%3Dorganic; _lxsdk_cuid=18c14f7ba63c8-0251b075bb2253-4c657b58-1fa400-18c14f7ba64c8; _lxsdk=18c14f7ba63c8-0251b075bb2253-4c657b58-1fa400-18c14f7ba64c8; _hc.v=61a730c4-8e5a-0ffa-39f4-7c2264540034.1701158829; Hm_lvt_602b80cf8079ae6591966cc70a3940e7=1701158830; WEBDFPID=xxxx476z7zw95uuu037u0yu83y63zy1y81x85u2w83y97958xw738665-2016518835118-1701158835118SMSOUMKfd79fef3d01d5e9aadc18ccd4d0c95071321; qruuid=6be944d9-22d6-4f7b-a28c-73ba2debc725; dper=59cbd7d042a25d7cd021476441994dea2e0146ba48d6553ce5ba7097bac2c7ca752f2e13830917efb17f7cc9b5e569f496d3a02830c1e23984a7b3724a12779e; ll=7fd06e815b796be3df069dec7836c3df; s_ViewType=10; Hm_lpvt_602b80cf8079ae6591966cc70a3940e7=1701158924; JSESSIONID=24E4AD9681FABC05587F07FADDBB3C3A; _lxsdk_s=18c14f7ba64-a9a-13b-b69%7C%7C124"
     }
     request = urllib.request.Request(url=url, headers=headers)
@@ -53,15 +71,20 @@ def get_content(i: int, ans: list) -> str:
     return content
 
 
-def Generate_Excel_and_jsons(content: str):
+def Generate_Excel_and_jsons(i:int,content: str):
     global data_json
     soup = BeautifulSoup(content, "lxml")
-    data_eval_config = soup.find("li", class_="simple-meal J_simple-meal")[
+    try:
+        data_eval_config = soup.find("li", class_="simple-meal J_simple-meal")[
         "data-eval-config"
     ]
-    # datas = json.loads(data_eval_config)
+    except:
+        content=get_content(i, Group_buying_URL)
+        print("获取内容失败，正在重新尝试")
+        return Generate_Excel_and_jsons(i,content)
+    datas = json.loads(data_eval_config)
     data_json += data_eval_config+'\n'
-    # sheet.append([datas["title"], datas["price"], datas["sold"]])
+    sheet.append([datas["title"], datas["price"], datas["sold"]])
 
 if __name__ == "__main__":
     workbook = openpyxl.Workbook()
@@ -72,11 +95,11 @@ if __name__ == "__main__":
     sheet["C1"] = "团购销售量"
     Group_buying_URL = create_urls()  # 获取星巴克、库迪、瑞幸三家所有团购信息所在页面的url
     data_json += str(now)+'\n'
-    for i in range(0, 10):
+    for i in range(0, len(Group_buying_URL)):
         content = get_content(i, Group_buying_URL)
-        Generate_Excel_and_jsons(content)
+        Generate_Excel_and_jsons(i,content)
         print(f"当前进度{round((i + 1) / len(Group_buying_URL),4) * 100}%")
-    # workbook.save("详细团购信息02.xlsx")
+    workbook.save("爬虫结果02.xlsx")
     with open("总的团购信息01.txt", mode="a", encoding="utf-8") as f:
         f.write(data_json)
         f.write("\n")
