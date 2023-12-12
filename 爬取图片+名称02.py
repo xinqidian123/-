@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import random
 import requests
-
+from datetime import datetime
 
 ua_pool = [
     "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36",
@@ -57,14 +57,13 @@ def gathering(target_url, less):
 
 
 def sleeping():
-    sleep_time = random.randint(4, 6)
+    sleep_time = random.randint(6, 9)
     time.sleep(sleep_time)
 
 
 def create_urls() -> list[int]:  # 获取星巴克、库迪、瑞幸所有团购页面的url
-    for i in range(0, 1):
+    for i in range(0, 3):
         url = urls[i]
-        sleeping()
         headers = {
             "User-Agent": ua_pool[random.randint(0, len(ua_pool) - 1)],
             "Cookie": "_lxsdk_cuid=18c015e1ff3c8-02cec7c051cf14-6b325057-144000-18c015e1ff3c8; _lxsdk=18c015e1ff3c8-02cec7c051cf14-6b325057-144000-18c015e1ff3c8; _hc.v=c878f49d-24f8-90de-2864-96becc427d81.1700829995; s_ViewType=10; WEBDFPID=54w5367u908055w41zwzzv252489x72281x984v0w2x97958v3y2yy9w-2016190024126-1700830024126QQOOOCIfd79fef3d01d5e9aadc18ccd4d0c95072559; ctu=d9fe4176131e5e7930acf6b0b64054aab1b8f995e4fcc02bccd71b8b49232af1; cy=982; cye=minhou; fspop=test; _lx_utm=utm_source%3DBaidu%26utm_medium%3Dorganic; Hm_lvt_602b80cf8079ae6591966cc70a3940e7=1701416106,1701841996,1701851814,1701933945; qruuid=6615ccfd-1add-40b6-bf77-37be13b7cf7f; dper=6a853896a1efe19ea7b222906b698e702f489826d90dcbc4b17c04f4fdb87f641f7a716861fb1bc4a1f7b5dbd20a018a8b8f74a62910c3aea9b17a04debbfcd0; ll=7fd06e815b796be3df069dec7836c3df; Hm_lpvt_602b80cf8079ae6591966cc70a3940e7=1701934344; _lxsdk_s=18c432b0cac-436-3e-444%7C%7C242",
@@ -77,6 +76,7 @@ def create_urls() -> list[int]:  # 获取星巴克、库迪、瑞幸所有团购
         target_less_url = datas["dealDetails"]
         gathering(target_url, target_less_url)
         print(name[i] + "已就绪")
+        sleeping()
     return Group_buying_URL
 
 
@@ -89,23 +89,24 @@ def get_content(index: int, ans: list):
     sleeping()
     try:
         response = requests.get(url=url, headers=headers)
+        response.encoding = "utf-8"
+        content = response.text
+        global data_json
+        soup = BeautifulSoup(content, "lxml")
+        data_eval_config = soup.find("li", class_="simple-meal J_simple-meal")[
+            "data-eval-config"
+        ]
+        data_json += data_eval_config + "\n"
+        img_src = soup.find("div", class_="img-wrap J_wrap")
+        img_url = img_src.contents[1].attrs["lazy-src-load"]
     except:
+        print("重连中")
         return get_content(index, ans)
-    response.encoding = "utf-8"
-    content = response.text
-    global data_json
-    soup = BeautifulSoup(content, "lxml")
-    data_eval_config = soup.find("li", class_="simple-meal J_simple-meal")[
-        "data-eval-config"
-    ]
-    data_json += data_eval_config + "\n"
-    img_src = soup.find("div", class_="img-wrap J_wrap")
-    img_url = img_src.contents[1].attrs["lazy-src-load"]
-    print(img_url)
     return img_url
 
 
 def generate_imgs(content, index: int):  #
+    global data_json
     headers = {
         "User-Agent": ua_pool[random.randint(0, len(ua_pool) - 1)],
         "Cookie": "_lxsdk_cuid=18c015e1ff3c8-02cec7c051cf14-6b325057-144000-18c015e1ff3c8; _lxsdk=18c015e1ff3c8-02cec7c051cf14-6b325057-144000-18c015e1ff3c8; _hc.v=c878f49d-24f8-90de-2864-96becc427d81.1700829995; s_ViewType=10; WEBDFPID=54w5367u908055w41zwzzv252489x72281x984v0w2x97958v3y2yy9w-2016190024126-1700830024126QQOOOCIfd79fef3d01d5e9aadc18ccd4d0c95072559; ctu=d9fe4176131e5e7930acf6b0b64054aab1b8f995e4fcc02bccd71b8b49232af1; cy=982; cye=minhou; fspop=test; _lx_utm=utm_source%3DBaidu%26utm_medium%3Dorganic; Hm_lvt_602b80cf8079ae6591966cc70a3940e7=1701416106,1701841996,1701851814,1701933945; qruuid=6615ccfd-1add-40b6-bf77-37be13b7cf7f; dper=6a853896a1efe19ea7b222906b698e702f489826d90dcbc4b17c04f4fdb87f641f7a716861fb1bc4a1f7b5dbd20a018a8b8f74a62910c3aea9b17a04debbfcd0; ll=7fd06e815b796be3df069dec7836c3df; Hm_lpvt_602b80cf8079ae6591966cc70a3940e7=1701934344; _lxsdk_s=18c432b0cac-436-3e-444%7C%7C242",
@@ -117,16 +118,23 @@ def generate_imgs(content, index: int):  #
             f.write(res.content)
     except:
         generate_imgs(content, index)
-
+        print("重连中")
 
 if __name__ == "__main__":
+    now = datetime.now()
+    data_json += str(now) + "\n"
     Group_buying_URL = create_urls()
-    for i in range(0, 5):
-        content = get_content(i, Group_buying_URL)
-        generate_imgs(content, i)
-        print(
-            f"当前进度{round(100 * (i + 1) / len(Group_buying_URL), 2)}%,还剩{len(Group_buying_URL) - i - 1}个"
-        )
-    with open("总的团购信息01.txt", mode="a", encoding="utf-8") as f:
-        f.write(data_json)
-        f.write("\n")
+    try:
+        for i in range(0, len(Group_buying_URL)):
+            content = get_content(i, Group_buying_URL)
+            generate_imgs(content, i)
+            print(
+                 f"当前进度{round(100 * (i + 1) / len(Group_buying_URL), 2)}%,还剩{len(Group_buying_URL) - i - 1}个"
+            )
+        with open("总的团购信息03.txt", mode="a", encoding="utf-8") as f:
+            f.write(data_json)
+            f.write("\n")
+    except:
+        with open("总的团购信息03.txt", mode="a", encoding="utf-8") as f:
+            f.write(data_json)
+            f.write("\n")
